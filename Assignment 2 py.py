@@ -219,29 +219,33 @@ array5lenght1 = len(array_string5000)
 array5lenght2 = len(array_string10000)
 array5lenght3 = len(array_string15000)
 array5lenght4 = len(array_string20000)
+array5lenght5 = len(array_string25000)
 
-array5length = np.array([array5lenght1, array5lenght2, array5lenght3, array5lenght4])
+array5length = np.array([array5lenght1, array5lenght2, array5lenght3, array5lenght4, array5lenght5])
 
 array15lenght1 = len(k15array_string5000)
 array15lenght2 = len(k15array_string10000)
 array15lenght3 = len(k15array_string15000)
 array15lenght4 = len(k15array_string20000)
+array15lenght5 = len(k15array_string25000)
 
-array15length = np.array([array15lenght1, array15lenght2, array15lenght3, array15lenght4])
+array15length = np.array([array15lenght1, array15lenght2, array15lenght3, array15lenght4, array15lenght5])
 
 int_lenght1 = len(array_int5000)
 int_lenght2 = len(array_int10000)
 int_lenght3 = len(array_int15000)
 int_lenght4 = len(array_int20000)
+int_lenght5 = len(array_int25000)
 
-int_length = np.array([int_lenght1, int_lenght2, int_lenght3, int_lenght4])
+int_length = np.array([int_lenght1, int_lenght2, int_lenght3, int_lenght4m, int_lenght5])
 
 float_lenght1 = len(array_float5000)
 float_lenght2 = len(array_float10000)
 float_lenght3 = len(array_float15000)
 float_lenght4 = len(array_float20000)
+float_lenght5 = len(array_float25000)
 
-float_lenght = np.array([float_lenght1, float_lenght2, float_lenght3, float_lenght4])
+float_lenght = np.array([float_lenght1, float_lenght2, float_lenght3, float_lenght4, float_lenght5])
 
 plt.plot(array5length, selectionSort)
 plt.plot(array15length, k15selectionSort)
