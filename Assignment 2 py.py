@@ -81,7 +81,7 @@ selectionSort3
 selectionSort4
 selectionSort5
 
-selectionSort = np.array([selectionSort1, selectionSort2, selectionSort3, selectionSort4])
+selectionSort = np.array([selectionSort1, selectionSort2, selectionSort3, selectionSort4, selectionSort5])
 
 k15array_string5000 = [''.join(random.choices(string.ascii_letters, k = 15)) for _ in range(5000)]
 k15array_string10000 = [''.join(random.choices(string.ascii_letters, k = 15)) for _ in range(10000)]
@@ -122,7 +122,7 @@ k15selectionSort3
 k15selectionSort4
 k15selectionSort5
 
-k15selectionSort = np.array([k15selectionSort1, k15selectionSort2, k15selectionSort3, k15selectionSort4])
+k15selectionSort = np.array([k15selectionSort1, k15selectionSort2, k15selectionSort3, k15selectionSort4, k15selectionSort5])
 
 array_int5000 = list(np.random.randint(0,1000000, 5000))
 array_int10000 = list(np.random.randint(0,1000000, 10000))
@@ -161,7 +161,7 @@ IntselectionSort3
 IntselectionSort4
 IntselectionSort5
 
-IntselectionSort = np.array([IntselectionSort1, IntselectionSort2, IntselectionSort3, IntselectionSort4])
+IntselectionSort = np.array([IntselectionSort1, IntselectionSort2, IntselectionSort3, IntselectionSort4, IntselectionSort5])
 
 array_float5000 = list(np.random.random(5000))
 array_float10000 = list(np.random.random(10000))
@@ -200,7 +200,7 @@ floatselectionSort3
 floatselectionSort4
 floatselectionSort5
 
-floatselectionSort = np.array([floatselectionSort1, floatselectionSort2, floatselectionSort3, floatselectionSort4])
+floatselectionSort = np.array([floatselectionSort1, floatselectionSort2, floatselectionSort3, floatselectionSort4, floatselectionSort5])
 
 import prettytable
 from prettytable import PrettyTable
