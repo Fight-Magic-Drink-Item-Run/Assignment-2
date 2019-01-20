@@ -123,3 +123,42 @@ k15selectionSort4
 k15selectionSort5
 
 k15selectionSort = np.array([k15selectionSort1, k15selectionSort2, k15selectionSort3, k15selectionSort4])
+
+array_int5000 = list(np.random.randint(0,1000000, 5000))
+array_int10000 = list(np.random.randint(0,1000000, 10000))
+array_int15000 = list(np.random.randint(0,1000000, 15000))
+array_int20000 = list(np.random.randint(0,1000000, 20000))
+array_int25000 = list(np.random.randint(0,1000000, 25000))
+
+start_time = time.time()
+selectionSort(array_int5000)
+end_time = time.time()
+IntselectionSort1 = (end_time - start_time)
+
+start_time = time.time()
+selectionSort(array_int10000)
+end_time = time.time()
+IntselectionSort2 = (end_time - start_time)
+
+start_time = time.time()
+selectionSort(array_int15000)
+end_time = time.time()
+IntselectionSort3 = (end_time - start_time)
+
+start_time = time.time()
+selectionSort(array_int20000)
+end_time = time.time()
+IntselectionSort4 = (end_time - start_time)
+
+start_time = time.time()
+selectionSort(array_int25000)
+end_time = time.time()
+IntselectionSort5 = (end_time - start_time)
+
+IntselectionSort1
+IntselectionSort2
+IntselectionSort3
+IntselectionSort4
+IntselectionSort5
+
+IntselectionSort = np.array([IntselectionSort1, IntselectionSort2, IntselectionSort3, IntselectionSort4])
